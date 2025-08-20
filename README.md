@@ -18,11 +18,11 @@ It detects vehicles, counts them, and generates useful insights with annotated o
 
 | Screenshot 1 | Screenshot 2 |
 |--------------|--------------|
-| ![Counts Screenshot 1](screenshots/count1.png) | ![Counts Screenshot 2](screenshots/count2.png) |
+| ![Counts Screenshot 1](image1.png) | ![Counts Screenshot 2](image2.png) |
 
 | Screenshot 3 | Screenshot 4 |
 |--------------|--------------|
-| ![Counts Screenshot 3](screenshots/count3.png) | ![Counts Screenshot 4](screenshots/count4.png) |
+| ![Counts Screenshot 3](image3.png) | ![Counts Screenshot 4](screenshots/count4.png) |
 
 *(Replace these with your actual screenshots in the `screenshots/` folder.)*
 
