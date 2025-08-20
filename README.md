@@ -4,7 +4,20 @@ This project analyzes traffic flow from video input using computer vision.
 It detects vehicles, counts them, and generates useful insights with annotated outputs.
 
 ---
-
+### Project Structure
+├─ traffic-flow-analysis-starter
+│ ├─.gitignore
+├ ├─ requirements.txt
+├─ traffic_flow.py
+├─ yolo8n.pt
+├─ Video1.mp4 # input video
+│ └─ lanes.json # lane calibration data
+├─ outputs/
+│ ├─ annotated.mp4 # processed video with vehicle tracking
+│ ├─ counts.csv # vehicle counts exported to Excel
+├─ screenshots/ # vehicle counts screenshots
+└─ README.md
+---
 ## 🎥 Demo Video
 
 - [Watch on Google Drive](https://drive.google.com/file/d/1YW3uhd7axu5TIvib5niqjqgFOSPsJE4s/view?usp=sharing)  
@@ -41,10 +54,3 @@ It detects vehicles, counts them, and generates useful insights with annotated o
 - Pandas  
 
 ---
-
-## 🚀 How to Run
-
-1. Clone this repository  
-   ```bash
-   git clone https://github.com/yourusername/traffic-flow-analysis-starter.git
-   cd traffic-flow-analysis-starter
