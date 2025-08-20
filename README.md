@@ -34,10 +34,28 @@ It detects vehicles, counts them, and generates useful insights with annotated o
 
 ---
 
-## 🛠 Tech Stack
-- Python  
-- OpenCV  
-- NumPy  
-- Pandas  
+### Technical Summary Approach
+
+Implemented a traffic flow analysis system that processes video input to detect, track, and count vehicles.
+Used computer vision techniques to identify moving vehicles and track them across frames.
+Lane calibration (lanes.json) ensures vehicles are counted correctly per lane.
+
+### Outputs include:
+
+Annotated video with bounding boxes and vehicle IDs.
+CSV file containing vehicle counts for further analysis.
+Screenshots highlighting detected counts for validation.
+
+### Challenges
+
+Lane detection accuracy: Initial calibration caused miscounts when vehicles overlapped.
+Multiple vehicle occlusions: Vehicles blocking each other made tracking inconsistent.
+Performance optimization: Processing high-resolution video frames caused slow execution.
+
+### Solutions
+
+Applied lane calibration data (lanes.json) to define valid regions for counting.
+Used tracking algorithms to maintain consistent vehicle IDs even during partial occlusions.
+Optimized frame processing by resizing input and applying selective region analysis, which improved speed without major accuracy loss.
 
 ---
