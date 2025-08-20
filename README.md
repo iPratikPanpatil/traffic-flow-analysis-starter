@@ -22,9 +22,7 @@ It detects vehicles, counts them, and generates useful insights with annotated o
 
 | Screenshot 3 | Screenshot 4 |
 |--------------|--------------|
-| ![Counts Screenshot 3](image3.png) | ![Counts Screenshot 4](screenshots/count4.png) |
-
-*(Replace these with your actual screenshots in the `screenshots/` folder.)*
+| ![Counts Screenshot 3](image3.png) | ![Counts Screenshot 4](image4.png) |
 
 ---
 
